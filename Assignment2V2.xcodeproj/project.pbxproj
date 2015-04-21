@@ -13,6 +13,10 @@
 		AD15D35A1A8E6523005FDDF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD15D3591A8E6523005FDDF4 /* Images.xcassets */; };
 		AD15D35D1A8E6523005FDDF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD15D35B1A8E6523005FDDF4 /* LaunchScreen.xib */; };
 		AD15D3691A8E6523005FDDF4 /* Assignment2V2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D3681A8E6523005FDDF4 /* Assignment2V2Tests.swift */; };
+		AD15D3731A8E86CF005FDDF4 /* UITextField+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D3721A8E86CF005FDDF4 /* UITextField+Conversion.swift */; };
+		ADA426F01A8F856C0028C3E8 /* UITextField+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D3721A8E86CF005FDDF4 /* UITextField+Conversion.swift */; };
+		ADA426F11A8F86410028C3E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D3541A8E6523005FDDF4 /* ViewController.swift */; };
+		ADA426F21A8F86460028C3E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D3521A8E6523005FDDF4 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 		AD15D3621A8E6523005FDDF4 /* Assignment2V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment2V2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD15D3671A8E6523005FDDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD15D3681A8E6523005FDDF4 /* Assignment2V2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2V2Tests.swift; sourceTree = "<group>"; };
+		AD15D3721A8E86CF005FDDF4 /* UITextField+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Conversion.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 			children = (
 				AD15D3521A8E6523005FDDF4 /* AppDelegate.swift */,
 				AD15D3541A8E6523005FDDF4 /* ViewController.swift */,
+				AD15D3721A8E86CF005FDDF4 /* UITextField+Conversion.swift */,
 				AD15D3561A8E6523005FDDF4 /* Main.storyboard */,
 				AD15D3591A8E6523005FDDF4 /* Images.xcassets */,
 				AD15D35B1A8E6523005FDDF4 /* LaunchScreen.xib */,
@@ -214,6 +220,7 @@
 			files = (
 				AD15D3551A8E6523005FDDF4 /* ViewController.swift in Sources */,
 				AD15D3531A8E6523005FDDF4 /* AppDelegate.swift in Sources */,
+				AD15D3731A8E86CF005FDDF4 /* UITextField+Conversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA426F21A8F86460028C3E8 /* AppDelegate.swift in Sources */,
+				ADA426F11A8F86410028C3E8 /* ViewController.swift in Sources */,
+				ADA426F01A8F856C0028C3E8 /* UITextField+Conversion.swift in Sources */,
 				AD15D3691A8E6523005FDDF4 /* Assignment2V2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +415,7 @@
 				AD15D36E1A8E6523005FDDF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD15D36F1A8E6523005FDDF4 /* Build configuration list for PBXNativeTarget "Assignment2V2Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +424,7 @@
 				AD15D3711A8E6523005FDDF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

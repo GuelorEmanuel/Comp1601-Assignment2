@@ -21,16 +21,79 @@ class Assignment2V2Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    /*
+     * Method to test the UITextField+Conversion class
+     * testing binary to decimal
+     */
+    func testUITextFiledConversion() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        let binary    = "00010"
+        let converted = binary.binaryToInt
+        XCTAssert( converted == 2 , "Pass")
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
+    /*
+    * Method to test the UITextField+Conversion class
+    * testing binary to decimal(Double)
+    */
+    func testUITextFieldConversion2() {
+        let binary    = "00110"
+        let converted = binary.binaryToDouble
+        XCTAssert( converted == 6.0, "Pass")
     }
+    
+   /*
+    * Method to test the UITextField+Conversion class
+    * testing binary to Hexadecimal
+    */
+    func testUITextFieldConversion3() {
+        let binary    = "01110"
+        let converted = binary.binaryToHexa
+        XCTAssert(converted == "e", "Pass")
+        
+    }
+    
+   /*
+    * Method to test the UITextField+Conversion class
+    * testing decimal value to binary
+    */
+    func testUITextFieldConversion4() {
+        let decimal   = "50"
+        let converted = decimal.intToBinary
+        XCTAssert(converted == "110010", "Pass")
+        
+    }
+    
+   /*
+    * Method to test the UITextField+Conversion class
+    * testing decimal to hexadecimal
+    */
+    func testUITextFieldConversion5() {
+        let decimal   = "50"
+        let converted = decimal.intToHexa
+        XCTAssert(converted == "32", "Pass")
+    }
+    
+   /*
+    * Method to test the UITextField+Conversion class
+    * testing hexadecimal to decimal
+    */
+    func testUITextFieldConversion6() {
+        let hexaDecimal = "1b4"
+        let converted   = hexaDecimal.hexaToInt
+        XCTAssert(converted == 436, "Pass")
+    }
+    
+   /*
+    * Method to test the UITextField+Conversion class
+    * testing hexadecimal to binary
+    */
+    func testUITextFieldConversion7() {
+        let hexaDecimal = "1b4"
+        let converted   = hexaDecimal.hexaToBinary
+        XCTAssert(converted == "110110100", "Pass")
+    }
+    
+   
     
 }
